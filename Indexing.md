@@ -1,3 +1,4 @@
+
 Indexing: "Indexing is a database optimization technique that uses an additional data structure to improve data retrieval speed by 
 reducing the need for full table scans. However, it requires additional storage and can increase the cost of write operations."
 
@@ -15,6 +16,11 @@ type Of indexing :
     3. Primary key columns cannot contain NULL values.
     4. PostgreSQL automatically creates a unique index for the primary key.
     5. A primary key can consist of multiple columns (composite primary key).
+
+ <img width="875" height="639" alt="Screenshot 2026-11-25 at 11 42 04 AM" src="https://github.com/user-attachments/assets/dbfb6225-f877-4abd-a110-dd24a0c696ac" />
+<img width="767" height="562" alt="Screenshot 2026-11-25 at 11 43 34 AM" src="https://github.com/user-attachments/assets/50f736e2-0b17-4497-8c0f-9db6dcfb69e6" />
+<img width="1117" height="648" alt="Screenshot 2026-11-25 at 11 44 44 AM" src="https://github.com/user-attachments/assets/276b609a-48cc-4694-9b48-eb6426e623e6" />
+hash Based rearly use in production because of the range of query , more efficient B tree
 
 How to create indexing: 
     CREATE INDEX idx_users_email
@@ -47,3 +53,20 @@ How to check wheather mongodb has indexing or not db.users.find({
 
 
 ```
+```
+GeoSpetail Indexing
+Imagine you are building a zomato app and want to locate near by use restorant then in that case we use Geospetail Indexing
+
+<img width="1024" height="548" alt="Screenshot 2026-11-25 at 11 49 44 AM" src="https://github.com/user-attachments/assets/fac0a98f-9f23-4a45-9dad-3c4ac6d03592" />
+<img width="991" height="556" alt="Screenshot 2026-11-25 at 11 51 46 AM" src="https://github.com/user-attachments/assets/927046f9-d34b-4ee5-819b-802c769f01d7" />
+
+```
+```
+Inverted Indexing : lets suppose we want to search give document which contain kuberneties
+<img width="818" height="499" alt="Screenshot 2026-11-25 at 11 57 41 AM" src="https://github.com/user-attachments/assets/232eab98-906f-4a73-9048-cbe9b5e0a00c" />
+<img width="767" height="445" alt="Screenshot 2026-11-25 at 11 58 14 AM" src="https://github.com/user-attachments/assets/34cfc9dd-e373-4de8-b65a-5e3c7f5d1062" />
+Elastic Search under the hood do this searchng
+```
+### when to use indexng
+<img width="1143" height="633" alt="Screenshot 2026-11-25 at 12 00 02 PM" src="https://github.com/user-attachments/assets/a2ef83df-6afa-4592-b592-379946bee2b8" />
+
