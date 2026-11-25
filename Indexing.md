@@ -17,6 +17,11 @@ type Of indexing :
     4. PostgreSQL automatically creates a unique index for the primary key.
     5. A primary key can consist of multiple columns (composite primary key).
 
+    Clustered Primary Indexing: if Actual DB is sorted exact same as the index Stored index it is called Clustered db
+    non- Clustured DB;
+   2: Secondary Indexing
+   3: Composite indexing: 
+
  <img width="875" height="639" alt="Screenshot 2026-11-25 at 11 42 04 AM" src="https://github.com/user-attachments/assets/dbfb6225-f877-4abd-a110-dd24a0c696ac" />
 <img width="767" height="562" alt="Screenshot 2026-11-25 at 11 43 34 AM" src="https://github.com/user-attachments/assets/50f736e2-0b17-4497-8c0f-9db6dcfb69e6" />
 <img width="1117" height="648" alt="Screenshot 2026-11-25 at 11 44 44 AM" src="https://github.com/user-attachments/assets/276b609a-48cc-4694-9b48-eb6426e623e6" />
@@ -69,4 +74,9 @@ Elastic Search under the hood do this searchng
 ```
 ### when to use indexng
 <img width="1143" height="633" alt="Screenshot 2026-11-25 at 12 00 02 PM" src="https://github.com/user-attachments/assets/a2ef83df-6afa-4592-b592-379946bee2b8" />
+
+kis cheez par jyada queries ati hai usi par indexing use hoti hai
+during system designing ask kis cheez par jyada queries ati hai
+ask is it is heavy operation
+
 
